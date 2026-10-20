@@ -4,6 +4,9 @@ Code for the paper **"A comparative study of computer vision models for oral can
 
 This repo benchmarks several object detection models on detecting oral cancer lesions in oral photographs, using [MMDetection](https://github.com/open-mmlab/mmdetection).
 
+! Before running the script update the values in the configurations files such as <path_to_checkpoint> ! 
+The training script for the yolo model works for all the yolo models tested in this thesis 
+
 ## Setup
 
 Follow the [MMDetection installation guide](https://mmdetection.readthedocs.io/en/latest/get_started.html), then clone this repo:
